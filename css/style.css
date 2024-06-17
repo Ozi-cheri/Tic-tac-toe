@@ -10,16 +10,16 @@ body{
     line-height: 76px;
     font-size: 51px;
     cursor: pointer;
-
 }
-#gamecontainer{
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-#cellContainer{
+#cellcontainer{
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 226px;
     margin: auto;
+    
+}
+#gamecontainer{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
