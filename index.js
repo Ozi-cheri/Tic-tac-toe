@@ -13,12 +13,18 @@ const winConditions = [
 ];
 let options = ["","","","","","","","","",];
 let currentPlayer = "X";
-let running = true;
+let running = false;
 
 function initializeGame(){
+    cell.forEach(cell => cell.addEventListener("click", ))
+        restartBtn.addEventListener("click", restartGame)
+        positionText.textContent = $;{currentPlayer}' turn' ;
+        
+
 
 }
 function cellClicked(){
+    const cellIndex = this.getAttribute(cellIndex);
 
 }
 function updateCell(cell, index){
