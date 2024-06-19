@@ -16,9 +16,20 @@ let currentPlayer = "X";
 let running = false;
 
 function initializeGame(){
-    cell.forEach(cell => cell.addEventListener("click", ))
-        restartBtn.addEventListener("click", restartGame)
-        positionText.textContent = $;{currentPlayer}' turn' ;
-        running = true
-        
+}
+
+function cellClicked(){
+
+}
+function updateCell(cell,index){
+
+}
+function changePlayer(){
+
+}
+function checkWinner(){
+
+}
+function restartGame(){
+    
 }
