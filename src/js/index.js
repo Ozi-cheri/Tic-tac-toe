@@ -21,31 +21,4 @@ function initializeGame(){
         positionText.textContent = $;{currentPlayer}' turn' ;
         running = true
         
-
-
-}
-function cellClicked(){
-    const cellIndex = this.getAttribute(cellIndex);
-    if(options[cellIndex] != "" || !running){
-        return;
-    }
-    updateCell(this, cellIndex);
-    checkWinner();
-
-}
-function updateCell(cell, index){
-    options[index] = currentPlayer;
-    cell.textContent = currentPlayer;
-
-}
-function changePlayer(){
-    currentPlayer = (currentPlayer == "X") ? "O" : "X";
-    positionText.textContent = 
-
-}
-function checkWinner(){
-
-}
-function restartGame(){
-    
 }
