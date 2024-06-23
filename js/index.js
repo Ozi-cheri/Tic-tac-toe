@@ -11,59 +11,40 @@ const winConditions = [
     [0,4,8],
     [2,4,6]
 ];
-let options = ["","","","","","","","",""];
-let currentPlayer = "x";
+let options = ["", "", "", "", "", "", "", "", ""];
+let currentPlayer = "X";
 let running = false;
 
-/**
- * Initializes the game by setting event listeners and resetting game state.
- */
+initializeGame();
+
 function initializeGame(){
     cells.forEach(cell => cell.addEventListener("click", cellClicked));
     restartBtn.addEventListener("click", restartGame);
     positionText.textContent = `${currentPlayer}'s turn`;
     running = true;
 }
-
-/**
- * Handles the cell click event.
- */
-function cellClicked() {
+function cellClicked(){
     const cellIndex = this.getAttribute("cellIndex");
-
-    if (options[cellIndex] != ""|| !running)  {
+if (options[cellIndex] != ""|| !running){
         return;
     }
 
     updateCell(this, cellIndex);
     checkWinner();
 }
-
-/**
- * updates the cell with the current player's symbol.
- * @param{HTMLElement} cell- The cell to update.
- * @param{number} index - The index of the cell.
- */
-function updateCell(cell, index) {
+function updateCell(cell, index){
     options[index] = currentPlayer;
     cell.textContent = currentPlayer;
 }
 
-/**
- * Changes the current player.
- */
-function changePlayer() {
-    currentPlayer = (currentPlayer == "x") ? "o" : "x";
+function changePlayer(){
+    currentPlayer = (currentPlayer == "X") ? "O" : "X";
     positionText.textContent = `${currentPlayer}'s turn`;
 }
-
-/**
- * Checks for a winner or for a draw.
- */
 function checkWinner(){
     let roundWon = false;
 
-for(let i = 0; i < winConditions.length; i++) {
+for(let i = 0; i < winConditions.length; i++){
     const condition = winConditions[i];
     const cellA = options[condition[0]];
     const cellB = options[condition[1]];
@@ -72,7 +53,7 @@ for(let i = 0; i < winConditions.length; i++) {
     if(cellA == "" || cellB == "" || cellC == ""){
         continue;
     }
-    if (cellA == cellB && cellB == cellC){
+    if(cellA == cellB && cellB == cellC){
         roundWon = true;
         break;
     }
@@ -89,13 +70,9 @@ for(let i = 0; i < winConditions.length; i++) {
  else{
     changePlayer();
  }
-}
-
-/**
- * Restarts the game by resetting all variables and UI elements.
- */
+} 
 function restartGame(){
-    currentPlayer = "x";
+    currentPlayer = "X";
     options = ["","","","","","" ,"","","",];
     positionText.textContent = `${currentPlayer}'s turn`;
     cells.forEach(cell => cell.textContent = "");
