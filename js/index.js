@@ -1,4 +1,4 @@
-const cells = document.querySelectorAll( "cell" );
+const cells = document.querySelectorAll(".cell");
 const positionText = document.querySelector("#positionText");
 const restartBtn = document.querySelector("#restartBtn");
 const winConditions = [
@@ -11,8 +11,8 @@ const winConditions = [
     [0,4,8],
     [2,4,6]
 ];
-let options = ["", "","","","","","","",""];
-let currentPlayer = "X";
+let options = ["","","","","","","","",""];
+let currentPlayer = "x";
 let running = false;
 
 /**
@@ -53,7 +53,7 @@ function updateCell(cell, index) {
  * Changes the current player.
  */
 function changePlayer() {
-    currentPlayer = (currentPlayer == "X") ? "O" : "X";
+    currentPlayer = (currentPlayer == "x") ? "o" : "x";
     positionText.textContent = `${currentPlayer}'s turn`;
 }
 
@@ -63,28 +63,30 @@ function changePlayer() {
 function checkWinner(){
     let roundWon = false;
 
-for (let i = 0; i < winConditions.length; i++) {
-    const conditins = winConditions[i];
+for(let i = 0; i < winConditions.length; i++) {
+    const condition = winConditions[i];
     const cellA = options[condition[0]];
     const cellB = options[condition[1]];
     const cellC = options[condition[2]];
 
-    if (cellA == "" || cellB == "" || cellC == "") {
+    if(cellA == "" || cellB == "" || cellC == ""){
         continue;
     }
-    if (cellA == cellB && cellB == cellC) {
+    if (cellA == cellB && cellB == cellC){
         roundWon = true;
         break;
     }
  }
 
- if (roundWon) {
+ if(roundWon){
     positionText.textContent = `${currentPlayer} wins!`;
     running = false;
- } else if (!options.includes("")) {
+ } 
+ else if(!options.includes("")){
     positionText.textContent = `Draw`;
     running = false;
- } else {
+ }
+ else{
     changePlayer();
  }
 }
@@ -92,9 +94,9 @@ for (let i = 0; i < winConditions.length; i++) {
 /**
  * Restarts the game by resetting all variables and UI elements.
  */
-function restartGame() {
-    currentPlayer = "X";
-    options = ["", "", "", "", "", "" , "", "", "",];
+function restartGame(){
+    currentPlayer = "x";
+    options = ["","","","","","" ,"","","",];
     positionText.textContent = `${currentPlayer}'s turn`;
     cells.forEach(cell => cell.textContent = "");
     running = true;
