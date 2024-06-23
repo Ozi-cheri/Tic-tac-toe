@@ -89,3 +89,13 @@ for (let i = 0; i < winConditions.length; i++) {
  }
 }
 
+/**
+ * Restarts the game by resetting all variables and UI elements.
+ */
+function restartGame() {
+    currentPlayer = "X";
+    options = ["", "", "", "", "", "" , "", "", "",];
+    positionText.textContent = `${currentPlayer}'s turn`;
+    cells.forEach(cell => cell.textContent = "");
+    running = true;
+}
