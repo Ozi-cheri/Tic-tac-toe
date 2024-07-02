@@ -1,7 +1,7 @@
 # Tic Tac Toe Game
 The **Tic Tac Toe** game website is a website for parents and children who wants to relax or have fun with game. Some people think that games are made only for children, but Hey! It is for everybody. It is a responsive  an interactive game that can be viewed on any device.
 
-![images](/images/Screenshot7.png)
+![images](asserts/images/Screenshot7.png)
 
 ## Advantages of Tic Tac Toe Game(Or games in general)
 
