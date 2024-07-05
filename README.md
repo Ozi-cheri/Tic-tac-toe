@@ -18,12 +18,23 @@ The **Tic Tac Toe** game is made up of the following features.
   ![image of the game container](assets/images/screenshot8.png)
 
 * The Game Area
-  * In this section,Javascript is used for the game development because of it assessibility across different platforms and devices,e.g mobile and desktop. This area automically allows the users to play the game. The game container is made of 9 cells numbered from 0-8. An eventlistener is added to each cell. When a cell is clicked it invokes cellclicked.
+  * In this section,Javascript is used for the game development because of it assessibility across different platforms and devices,e.g mobile and desktop. This area automically allows the users to play the game. The game container is made of 9 cells numbered from 0-8. An eventlistener is added to each cell. When a cell is clicked it invokes cellclicked that initiates the funtionality of the cells.
   
   ![image of some javascript code](assets/images/screenshot3.png) 
-  The game is made up of 2 players, X and O. When X's turn is displayed on the board,that means it is X's turn to start the game and vice versa.
-  Each player clicks on the cell one after the other as they play the game. If only X's should appear on any of the rows or columns,3 times and  diagonal 2 times, X wins.
+  The game is made up of 2 players, X and O. When X's turn is displayed on the game board,that means it is X's turn to start the game and vice versa.
+  Each player clicks on the cell one after the other as they play the game. If only X's should appear 3 times in a cell on any of the rows,columns or diagonals, X wins.
   ![image when x wins](assets/images/screenshot6.png) 
   
-  An eventlistener is added to the restart button in order to initiate the restart game funtion when clicked.
+  An eventlistener is added to the restart button in order to invoke the restart game funtion when clicked when a paticular player wins or when it is a draw.
+  ![image of a draw game](assets/images/screenshot1.png)
+  
+## Features Left to Implement
+
+* Another feature idea
+
+## Responsive Testing
+
+* How the Game looks on Browsers 
+
+
   
