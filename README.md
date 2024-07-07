@@ -1,7 +1,7 @@
 # Tic Tac Toe Game
 The **Tic Tac Toe** game website is a website for parents and children who wants to relax or have fun with game. Some people think that games are made only for children, but Hey! It is for everybody. It is a responsive  an interactive game that can be viewed on any device.
 
-![image of the game in responsive form](assets/images/Screenshot7.png)
+![image of the game in different view form](assets/images/Screenshot7.png)
 
 ## Advantages of Tic Tac Toe Game(Or games in general)
 
@@ -21,8 +21,10 @@ The **Tic Tac Toe** game is made up of the following features.
   * In this section,Javascript is used for the game development because of it assessibility across different platforms and devices,e.g mobile and desktop. This area automically allows the users to play the game. The game container is made of 9 cells numbered from 0-8. An eventlistener is added to each cell. When a cell is clicked it invokes cellclicked that initiates the funtionality of the cells.
   
   ![image of some javascript code](assets/images/screenshot3.png) 
+  
   The game is made up of 2 players, X and O. When X's turn is displayed on the game board,that means it is X's turn to start the game and vice versa.
-  Each player clicks on the cell one after the other as they play the game. If only X's should appear 3 times in a cell on any of the rows,columns or diagonals, X wins.
+  Each player clicks on the cell one after the other as they play the game. If only X's should appear 3 times in each cell on any of the rows,columns or diagonals, X wins and vice versa.
+  
   ![image when x wins](assets/images/screenshot6.png) 
   
   An eventlistener is added to the restart button in order to invoke the restart game funtion when clicked when a paticular player wins or when it is a draw.
@@ -34,7 +36,34 @@ The **Tic Tac Toe** game is made up of the following features.
 
 ## Responsive Testing
 
-* How the Game looks on Browsers 
+* Responsive testing on screen devices and browsers
+  * The game is responsive,looks good and works on all standard sizes using the devtool divice toolbar.
+  * The game is functional when tested in **Chrome** and **Firefox** browsers.
+
+## Validator Testing 
+
+* CSS
+  * No errors were found when tested through [css validator](https://jigsaw.w3.org) 
+
+* HTML
+  * No errors were found when tested through [w3c validator](https://validator.w3.org) 
+
+* Javascript
+  * No errors were found when tested through [jshint validator](https://jshint.com)
+
+## Bugs
+
+
+## Deployment
+* The site was deployed to *GitHub* pages as follows
+  * Navigate to setting in the *GitHub* repository.
+  * Navigate to pages section.
+  * Select main branch as the source from build and deployment section.
+  * Deployment to the site starts.
+
+  The live link can be found here - <https://ozi-cheri.github.io/Tic-tac-toe/>
+
+## Credits 
 
 
   
