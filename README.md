@@ -58,12 +58,17 @@ The **Tic Tac Toe** game is made up of the following features.
 * The site was deployed to *GitHub* pages as follows
   * Navigate to setting in the *GitHub* repository.
   * Navigate to pages section.
-  * Select main branch as the source from build and deployment section.
+  * Select main branch from the source section and save.
   * Deployment to the site starts.
 
   The live link can be found here - <https://ozi-cheri.github.io/Tic-tac-toe/>
 
-## Credits 
+# Credits 
+
+## Content And Codes
+* Bro Code channel <https://youtube.com/@brocodez>
+* Background colour idea and styling from
+  * Devression channel <https://youtube.com/@dev_ression>
 
 
   
