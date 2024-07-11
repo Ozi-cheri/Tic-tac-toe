@@ -23,6 +23,7 @@ The **Tic Tac Toe** game is made up of the following features.
   ![image of some javascript code](assets/images/screenshot3.png) 
   
   The game is made up of 2 players, X and O. When X's turn is displayed on the game board,that means it is X's turn to start the game and vice versa.
+  ## Game Rules
   Each player clicks on the cell one after the other as they play the game. If only X's should appear 3 times in each cell on any of the rows,columns or diagonals, X wins and vice versa.
   
   ![image when x wins](assets/images/screenshot6.png) 
