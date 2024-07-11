@@ -1,7 +1,7 @@
 # Tic Tac Toe Game
 The **Tic Tac Toe** game website is a website for parents and children who wants to relax or have fun with game. Some people think that games are made only for children, but Hey! It is for everybody. It is a responsive  an interactive game that can be viewed on any device.
 
-![image of the game in different view form](assets/images/Screenshot7.png)
+![image of the game in different view form](assets/images/screenshot7.png)
 
 ## Advantages of Tic Tac Toe Game(Or games in general)
 
@@ -25,6 +25,9 @@ The **Tic Tac Toe** game is made up of the following features.
   The game is made up of 2 players, X and O. When X's turn is displayed on the game board,that means it is X's turn to start the game and vice versa.
   ## Game Rules
   Each player clicks on the cell one after the other as they play the game. If only X's should appear 3 times in each cell on any of the rows,columns or diagonals, X wins and vice versa.
+
+  ![image of game rules](assets/images/screenshot9.png)
+  
   
   ![image when x wins](assets/images/screenshot6.png) 
   
