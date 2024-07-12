@@ -31,7 +31,9 @@ The **Tic Tac Toe** game is made up of the following features.
   
   ![image when x wins](assets/images/screenshot6.png) 
   
+  
   An eventlistener is added to the restart button in order to invoke the restart game funtion when clicked when a paticular player wins or when it is a draw.
+  
   ![image of a draw game](assets/images/screenshot1.png)
   
 ## Features Left to Implement
