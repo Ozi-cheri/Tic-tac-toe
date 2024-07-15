@@ -24,7 +24,9 @@ function initializeGame(){
     running = true;
 }
 function cellClicked(){
-    const cellIndex = this.getAttribute("cellIndex");
+    const cellIndex = this.getAttribute("data-cell-index");
+
+
 if (options[cellIndex] != ""|| !running){
         return;
     }
