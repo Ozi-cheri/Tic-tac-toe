@@ -63,7 +63,17 @@ The **Tic Tac Toe** game is made up of the following features.
    * The most complex function has cyclomatic complexity value of 9 while the median is 1.
 
 ## Bugs 
-* The 
+**Solved Bugs** 
+* My html code results had errors when tested for validation.
+* I discovered that attribute cellindex was not allowed directly on element div.
+```
+<div cellindex="0" class="cell"></div>
+```
+* Adding **data** attribute solved the error.
+```
+<div data-cell-index="0" class="cell"></div>
+```
+
 
 
 ## Deployment
