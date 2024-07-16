@@ -43,7 +43,7 @@ The **Tic Tac Toe** game is made up of the following features.
 ## Responsive Testing
 
 * Responsive testing on screen devices and browsers
-  * The game is responsive,looks good and works on all standard sizes using the devtool divice toolbar.
+  * The game is responsive,looks good and works on all standard sizes using the devtool device toolbar.
   * The game is functional when tested in **Chrome** and **Firefox** browsers.
 
 ## Validator Testing 
@@ -56,8 +56,14 @@ The **Tic Tac Toe** game is made up of the following features.
 
 * Javascript
   * No errors were found when tested through [jshint validator](https://jshint.com)
+#### The following metrics were returned when javascript was tested.
+   * There are 8 functions in this file.
+   * Function with the largest signature take 2 arguments, while the median is 0.
+   * Largest function has 17 statemnts in it,while the median is 3.
+   * The most complex function has cyclomatic complexity value of 9 while the median is 1.
 
-## Bugs
+## Bugs 
+* The 
 
 
 ## Deployment
