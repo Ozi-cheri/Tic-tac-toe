@@ -1,3 +1,4 @@
+   // Html Elements
 const cells = document.querySelectorAll(".cell");
 const positionText = document.querySelector("#positionText");
 const restartBtn = document.querySelector("#restartBtn");
@@ -18,11 +19,13 @@ let running = false;
 initializeGame();
 
 function initializeGame(){
+    // Event Listeners
     cells.forEach(cell => cell.addEventListener("click", cellClicked));
     restartBtn.addEventListener("click", restartGame);
     positionText.textContent = `${currentPlayer}'s turn`;
     running = true;
 }
+// Funtions
 function cellClicked(){
     const cellIndex = this.getAttribute("data-cell-index");
 
@@ -40,12 +43,13 @@ function updateCell(cell, index){
 }
 
 function changePlayer(){
+   // Game Elements
     currentPlayer = (currentPlayer == "X") ? "O" : "X";
     positionText.textContent = `${currentPlayer}'s turn`;
 }
 function checkWinner(){
     let roundWon = false;
-
+   // Check Winners
 for(let i = 0; i < winConditions.length; i++){
     const condition = winConditions[i];
     const cellA = options[condition[0]];
