@@ -77,6 +77,7 @@ for(let i = 0; i < winConditions.length; i++){
     changePlayer();
  }
 } 
+   // Restart Button
 function restartGame(){
     currentPlayer = "X";
     options = ["","","","","","" ,"","","",];
