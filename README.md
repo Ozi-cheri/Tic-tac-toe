@@ -1,5 +1,5 @@
 # Tic Tac Toe Game
-The **Tic Tac Toe** game website is a website for parents and children who wants to relax or have fun with game. Some people think that games are made only for children, but Hey! It is for everybody. It is a responsive  an interactive game that can be viewed on any device.
+The **Tic Tac Toe** game website is a website for parents and children who wants to relax or have fun with game. It is a responsive  an interactive game that can be viewed on any device.
 
 ![image of the game in different view form](assets/images/screenshot7.png)
 
@@ -44,7 +44,7 @@ The **Tic Tac Toe** game is made up of the following features.
 
 * Responsive testing on screen devices and browsers
   * The game is responsive,looks good and works on all standard sizes using the devtool device toolbar.
-  * The game is functional when tested in **Chrome** and **Firefox** browsers.
+  * The game is functional when tested in **Chrome** , **Firefox** and **Microsoft Edge** browsers.
 
 ## Validator Testing 
 
@@ -87,10 +87,16 @@ The **Tic Tac Toe** game is made up of the following features.
 
 # Credits 
 
-## Content And Codes
-* Bro Code channel <https://youtube.com/@brocodez>
-* Background colour idea and styling from
-  * Devression channel <https://youtube.com/@dev_ression>
+## Content 
+   * The construction of index.html and Javascript were taken from Bro Code channel.Additional content was from my research on youtube.
+  * Styling content from Devression channel and my research on youtube.
+## Codes and Contents 
+* I made researches on youtube regulary and below are the channels i visited.
+  * The code for .html and .js is from Bro Code channel <https://youtube.com/@brocodez>
+  * Styling idea code from Devression channel <https://youtube.com/@dev_ression>
+  * Additional researches were made in youtube that also aided in the development of this project.
+  * How to add data attribute idea from OpenJavascript <https://youtube.com/@openjavascript>
+  * How to add footer W3Schools <https://www.w3schools.com>
 
 
   
