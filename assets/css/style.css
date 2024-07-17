@@ -1,7 +1,9 @@
+ /* General Styles */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(231, 93, 93);
 }
+ /* Cell Area */
 .cell{
     height: 75px;
     width: 75px;
@@ -11,6 +13,7 @@ body{
     font-size: 50px;
     cursor: pointer;
 }
+ /* Cell Container */
 #cellcontainer{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -18,11 +21,13 @@ body{
     margin: auto;
     
 }
+ /* Game Container */
 #gamecontainer{
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+ /* Button Area */
 button {
     margin-bottom: 20px;
     height: 30px;
@@ -37,6 +42,7 @@ button:hover {
     transition: 0.20s;
     background-color: rgb(203, 235, 224);
 }
+ /* Footer Section */
 footer h3 {
     text-align: center;
     font-size: 20px;
