@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ttitle-->
     <title>Game</title>
+    <!--CSS Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
 
+<body>
+    <!--Game Container-->
     <div id="gamecontainer">
         <header>
-             <h1>Tic Tac Toe</h1>
+            <h1>Tic Tac Toe</h1>
         </header>
+        <!--Cell Container-->
         <div id="cellcontainer">
             <div data-cell-index="0" class="cell"></div>
             <div data-cell-index="1" class="cell"></div>
@@ -23,13 +27,17 @@
             <div data-cell-index="7" class="cell"></div>
             <div data-cell-index="8" class="cell"></div>
         </div>
+        <!--Position Text-->
         <h2 id="positionText"> &nbsp;</h2>
         <button id="restartBtn">Restart</button>
     </div>
     <footer>
+        <!--Game Rules-->
         <h3>Rules</h3>
         <p>If X appears three times in a row,column or diagonal,X wins and vice versa.</p>
     </footer>
+    <!--Js Script-->
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>
