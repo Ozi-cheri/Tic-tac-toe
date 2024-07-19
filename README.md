@@ -44,7 +44,7 @@ The **Tic Tac Toe** game is made up of the following features.
 
 * Responsive testing on screen devices and browsers
   * The game is responsive,looks good and works on all standard sizes using the devtool device toolbar.
-  * The game is functional when tested in **Chrome** , **Firefox** and **Microsoft Edge** browsers.
+  * The game is functional and looks good when tested in **Chrome** , **Firefox** and **Microsoft Edge** browsers.
 
 ## Validator Testing 
 
@@ -61,6 +61,12 @@ The **Tic Tac Toe** game is made up of the following features.
    * Function with the largest signature take 2 arguments, while the median is 0.
    * Largest function has 17 statemnts in it,while the median is 3.
    * The most complex function has cyclomatic complexity value of 9 while the median is 1.
+
+   ## Accesibility 
+   **Lighthouse Report** was used to measure the quality of the project performance, accessibility, best practices and SEO scores.
+   
+  ![image of lighthouse Report](assets/images/screenshot10.png)
+
 
 ## Bugs 
 **Solved Bugs** 
@@ -88,13 +94,13 @@ The **Tic Tac Toe** game is made up of the following features.
 # Credits 
 
 ## Content 
-   * The construction of index.html and Javascript were taken from Bro Code channel.Additional content was from my research on youtube.
-  * Styling content from Devression channel and my research on youtube.
+   * The construction of index.html and Javascript were taken from Bro Code channel.Additional content was from research on youtube.
+  * Styling content from Devression channel and research on youtube.
 ## Codes and Contents 
-* I made researches on youtube regulary and below are the channels i visited.
+* I made researches on youtube regularly and below are the channels i visited.
   * The code for .html and .js is from Bro Code channel <https://youtube.com/@brocodez>
   * Styling idea code from Devression channel <https://youtube.com/@dev_ression>
-  * Additional researches were made in youtube that also aided in the development of this project.
+  * Additional researches were made on youtube that also aided in the development of this project.
   * How to add data attribute idea from OpenJavascript <https://youtube.com/@openjavascript>
   * How to add footer W3Schools <https://www.w3schools.com>
 
