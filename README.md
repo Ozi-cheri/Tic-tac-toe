@@ -108,5 +108,8 @@ The **Tic Tac Toe** game is made up of the following features.
   * How to add data attribute idea from OpenJavascript <https://youtube.com/@openjavascript>
   * How to add footer W3Schools <https://www.w3schools.com>
 
-
+## Acknowledgments
+  * Code Institute for this great platform, student care, slack community and tutor department for their supports.
+  * My husband,for supporting me to enroll for this program.
+  * My mentor Spencer, for his encouragement and direction.
   
